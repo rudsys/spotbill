@@ -1,6 +1,7 @@
 var titleElement = document.querySelector('title');
-var descriptionElement = document.querySelector('#description'); // Ganti '#description' dengan selector yang sesuai
-var versionElement = document.querySelector('#version'); // Ganti '#version' dengan selector yang sesuai
+var descriptionElement = document.querySelector('description');
+var versionElement = document.querySelector('version');
+var hloginElement = document.querySelector('hlogin');
 
 
 fetch('../../config/app.json')
@@ -15,6 +16,10 @@ fetch('../../config/app.json')
 
         if (versionElement) {
             versionElement.innerText = jsonData.version;
+        }
+        
+        if (hloginElement) {
+            hloginElement.innerText = jsonData.hlogin;
         }
     })
     .catch(error => console.error('Error fetching JSON:', error));
