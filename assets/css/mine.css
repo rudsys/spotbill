@@ -1,0 +1,45 @@
+.edit-link {
+    color: yellow;
+}
+
+.content-header {
+position: fixed;
+width: 100%; /* Sesuaikan lebar dengan kebutuhan */
+background-color: rgba(69, 77, 85, 0.7); /* Gunakan rgba untuk warna dengan transparansi */
+z-index: 1000;
+top: 0; /* Letakkan elemen ke bagian atas halaman */
+
+box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(10px);
+
+height: 235px; /* Sesuaikan dengan kebutuhan */
+box-sizing: border-box; /* Hitung margin dan padding ke dalam tinggi */
+
+}
+
+.breadcrumb-item{
+font-size: small;
+}
+
+.navbar-nav .nav-link i {
+font-size: 30px;
+color: antiquewhite;
+}
+
+.Uid{
+font-size: 12px;
+}
+
+.navbar-nav .nav-item .nav-link i:hover {
+color: #ff8040;
+}
+
+@media (max-width: 768px) {
+.navbar-nav .nav-item .nav-link i:hover {
+    color: #ff8000;
+}
+}
+
+.nav-link small {
+        font-size: 0.7em;
+    }

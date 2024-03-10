@@ -12,7 +12,7 @@ date_default_timezone_set('Asia/Jakarta');
             </div>
             <div class="card-body">
                 <p class="register-box-msg">Daftar Mitra Baru</p>
-                <form action="" method="post">
+                <form action="../process/register.php" method="post">
                     <div class="input-group mb-3">
                         <input type="text" id="real_name" name="real_name" class="form-control" placeholder="Nama Panggilan / Kios" required>
                         <div class="input-group-append">
@@ -47,8 +47,8 @@ date_default_timezone_set('Asia/Jakarta');
         </div>
     </div>
 
+    <div class="alert">...</div>
+
     <br>
 
-<?php
-include 'footer.php'
-?>
+<?php include 'footer.php'?>

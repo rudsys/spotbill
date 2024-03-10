@@ -1,11 +1,10 @@
-<?php 
+<?php
 include 'header.php';
 
 //START SESSION
 session_start();
 date_default_timezone_set('Asia/Jakarta');
 ?>
-
 
 <body class="login-page dark-mode" style="min-height: 466px;">
     <div class="login-box">
@@ -22,6 +21,8 @@ date_default_timezone_set('Asia/Jakarta');
         </div>
     </div>
 
-<?php
-include 'footer.php'
-?>
+    <div class="alert">...</div>
+
+    <br>
+
+<?php include 'footer.php'?>
