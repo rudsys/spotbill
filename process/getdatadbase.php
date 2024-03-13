@@ -24,7 +24,7 @@ $sqlTblTransaksi = "SELECT * FROM tbl_transaksi WHERE user_id = '$user_id'";
 $resultTblTransaksi = $conn->query($sqlTblTransaksi);
 
 // AMBIL DATA DARI tbl_listprofile
-$sqlTblListProfile = "SELECT * FROM tbl_listprofile";
+$sqlTblListProfile = "SELECT * FROM tbl_listprofile WHERE id = $id";
 $resultTblListProfile = $conn->query($sqlTblListProfile);
 
 if (!$result) {
